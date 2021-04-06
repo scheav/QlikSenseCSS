@@ -9,14 +9,23 @@
   --corp-color: #0077C5;
 }
 
+/*--------- Font Setup ---------*/
 @font-face {
-  font-family: AvenirNextforINTUIT-Regular;
-  src: url('https://qliksensestg.a.intuit.net/content/Default/AvenirNextforINTUIT-Regular.otf');
+  font-family: myFont;
+  src: url('https://qliksensestg.a.intuit.net/content/Default/myFont.ttf');
 }
 
-.qv-object *, body {
-  font-family: AvenirNextforINTUIT-Regular;
+body, html, .qv-object *, .bright.qv-panel-current-selections .values {
+  font-family: AvenirNextforINTUIT !important;
 }
+
+.lui-icon, .wizard-button-icon, .lui-search__search-icon {
+  font-family: LUI icons !important;
+}
+.fa {
+  font-family: FontAwesome !important;
+}
+/*----------- End Font -----------*/
 
 .qv-panel-current-selections .lui-icon {
   color: var(--corp-color);
