@@ -10,3 +10,11 @@
 .qv-panel-current-selections .lui-icon {
 color: red;
 }
+
+.qv-object-content-container .qv-object-content table tr:nth-of-type(even) {
+  background: #F8F8F8;
+}
+
+.qv-object-content-container .qv-object-content table tr:hover {
+    background-color: #EBF9FF;
+}
