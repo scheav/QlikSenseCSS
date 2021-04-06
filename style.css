@@ -1,16 +1,27 @@
+/*-------------------------- Variable ----------------------------------*/
+:root {
+  --table-col-header-bg-color: #FFFFFF;
+  --table-striped-color: #EBF9FF;
+  --footer-bg-color: #FEFCFF;
+  --border-radius: 3px;
+  --sheet-bg-color: #F0F0F0;
+  --text-color: #050506;
+  --corp-color: #0077C5;
+}
+
 @font-face {
   font-family: AvenirNextforINTUIT-Regular;
   src: url('https://qliksensestg.a.intuit.net/content/Default/AvenirNextforINTUIT-Regular.otf');
 }
 
 .qv-object *, body {
-    font-family: AvenirNextforINTUIT-Regular;
+  font-family: AvenirNextforINTUIT-Regular;
 }
 
 .qv-panel-current-selections .lui-icon {
-color: blue;
+  color: var(--corp-color);
 }
 
 .qv-object-content-container .qv-object-content table tr:nth-of-type(even) {
-  background: #F8F8F8;
+  background: var(--table-striped-color);
 }
