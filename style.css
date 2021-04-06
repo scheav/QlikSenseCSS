@@ -25,10 +25,13 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 .fa {
   font-family: FontAwesome !important;
 }
-/*----------- End Font -----------*/
 
-.qv-state-count-bar {
-  color: var(--corp-color);
+/*-------------Stage Count Bar -------- */
+.qv-listbox .serverLocked, .qv-listbox .serverSelected, .qv-listbox li.selected {
+  background-color: var(--corp-color);
+}
+.qv-state-count-bar .state.selected, .qv-state-count-bar .state.locked {
+  background: var(--corp-color);
 }
 
 .qv-panel-current-selections .lui-icon {
