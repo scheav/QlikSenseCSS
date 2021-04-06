@@ -27,6 +27,10 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 }
 /*----------- End Font -----------*/
 
+.qv-state-count-bar {
+  color: var(--corp-color);
+}
+
 .qv-panel-current-selections .lui-icon {
   color: var(--corp-color);
 }
