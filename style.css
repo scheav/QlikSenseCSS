@@ -1,0 +1,12 @@
+@font-face {
+  font-family: AvenirNextforINTUIT-Regular;
+  src: url('https://qliksensestg.a.intuit.net/content/Default/AvenirNextforINTUIT-Regular.otf');
+}
+
+.qv-object *, body {
+    font-family: AvenirNextforINTUIT-Regular;
+}
+
+.qv-panel-current-selections .lui-icon {
+color: red;
+}
