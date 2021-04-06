@@ -12,11 +12,11 @@
 /*--------- Font Setup ---------*/
 @font-face {
   font-family: myFont;
-  src: url('https://qliksensestg.a.intuit.net/content/Default/myFont.ttf');
+  src: url('https://scheav.github.io/QlikSenseCSS/myFont.ttf');
 }
 
 body, html, .qv-object *, .bright.qv-panel-current-selections .values {
-  font-family: AvenirNextforINTUIT !important;
+  font-family: myFont !important;
 }
 
 .lui-icon, .wizard-button-icon, .lui-search__search-icon {
