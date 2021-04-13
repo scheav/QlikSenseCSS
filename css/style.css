@@ -64,6 +64,11 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
     font-family: AvenirNext-Medium !important;
 }
 
+/*----------- Sheet Grid --------- */
+.sheet-grid .qv-gridcell {
+    border: none;
+}
+
 /*-------------State Count Bar -------- */
 .qv-state-count-bar .state.selected, .qv-state-count-bar .state.locked {
   background: var(--corp-color);
@@ -105,6 +110,9 @@ color: LightSalmon;
   display: none;
 }
 
+/*------------------------- Table Styling---------------------------*/
 .qv-object-content-container .qv-object-content table tr:nth-of-type(even) {
   background: var(--table-striped-color);
 }
+
+
