@@ -101,7 +101,7 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 }
 
 .bright.qv-panel-current-selections .wrap, .qv-panel-current-selections, .current-selections-item, .qv-panel-current-selections .item {
-    background: #FFFFFF !important;
+    background: #F4F5F8 !important;
 }
 
 
