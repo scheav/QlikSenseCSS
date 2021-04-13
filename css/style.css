@@ -7,7 +7,7 @@
   --sheet-bg-color: #F0F0F0;
   --text-color: #393A3D;
   --corp-color: #0077C5;
-  --subtitle-footnote-text-color: #6B6C72;
+  --subtitle-footnote-text-color: #4c4d50;
 }
 
 /*-----Public Resource --> https://github.intuit.com/CTG-Common/Library-CDN ------*/
@@ -129,6 +129,6 @@ color: LightSalmon;
 }
 
 .qv-object .qv-object-footnote, .qv-object .qv-object-subtitle {
-    color: var(--text-color) !important;
+    color: var(--subtitle-footnote-text-color) !important;
 }
 
