@@ -100,8 +100,8 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
     color: var(--text-color);
 }
 
-.bright.qv-panel-current-selections .wrap, .qv-panel-current-selections, .current-selections-item {
-    background: none;
+.bright.qv-panel-current-selections .wrap, .qv-panel-current-selections, .current-selections-item, .qv-panel-current-selections .item {
+    background: none !important;
 }
 
 
