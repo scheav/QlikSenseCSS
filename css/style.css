@@ -84,3 +84,8 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 .qv-object-content-container .qv-object-content table tr:nth-of-type(even) {
   background: var(--table-striped-color);
 }
+
+/*---------------- Object Hover: Take snapshot, Exploration menu, Full screen ----------------*/
+.qv-object-nav>a, .qv-object-nav.zero-top>a {
+  color: var(--corp-color);
+}
