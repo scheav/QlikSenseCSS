@@ -82,9 +82,6 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 .qv-listbox .serverLocked, .qv-listbox .serverSelected, .qv-listbox li.selected {
   background-color: var(--corp-color);
   border-bottom: 1px solid #FFFFFF;
-}
-
-.qv-listbox-item .serverSelected {
   color: #FFFFFF !important;
 }
 
