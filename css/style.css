@@ -88,7 +88,7 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
   text-align: left !important;
 }
 
-.qv-collapsed-listbox .title-wrapper .title {
+.qv-collapsed-listbox .title-wrapper .title, .qv-panel-current-selections .name {
     font-weight: 400 !important;
 }
 
