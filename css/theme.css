@@ -1,0 +1,268 @@
+/*-------------------------- Variable ----------------------------------*/
+:root {
+  --table-col-header-bg-color: #FFFFFF;
+  --table-striped-color: #f7f7f7;
+  --footer-bg-color: #FEFCFF;
+  --border-radius: 3px;
+  --sheet-bg-color: #F0F0F0;
+  --text-color: #050506; /*#393A3D*/
+  --corp-color: #0077C5;
+}
+
+
+
+/*--------- Font Setup ---------*/
+@font-face {
+    font-family: AvenirNext-Regular;
+    src: url(https://lib.intuitcdn.net/fonts/AvenirNext/3.0/AvenirNextforINTUIT-Regular.1.woff) format("woff")
+}
+
+@font-face {
+    font-family: AvenirNext-Medium;
+    src: url(https://lib.intuitcdn.net/fonts/AvenirNext/3.0/AvenirNextforINTUIT-MediumIt.1.woff) format("woff")
+}
+
+body, html, .qv-object *, .bright.qv-panel-current-selections .values {
+  font-family: AvenirNext-Regular !important;
+}
+
+.lui-icon, .wizard-button-icon, .lui-search__search-icon {
+  font-family: LUI icons !important;
+}
+.fa {
+  font-family: FontAwesome !important;
+}
+/*---- End Font -----*/
+
+.qvt-sheet {
+    background-color: var(--sheet-bg-color);
+}
+.qv-inner-object {
+    padding: 10px 10px 10px 10px;
+    border-radius: var(--border-radius);
+}
+
+/*---------------------------Sheet Title---------------------------------*/
+.qv-panel-sheet .sheet-title-container {
+  padding: 0;
+  height: 36px;
+  background: var(--corp-color);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+#sheet-title.sheet-grid {
+    margin: 0px 10px 0px 10px;
+}
+#sheet-title .sheet-title-text{
+    background-image: url(https://lib.intuitcdn.net/img/nav/checkball.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    color: #FFFFFF;
+    font-family: AvenirNext-Medium !important;
+}
+
+/*---------------------------Object Footer---------------------------------*/
+.qv-object .qv-footer-wrapper {
+    background:var(--footer-bg-color) !important;
+    padding: 0px 10px 5px 10px;
+    border-top: 1px solid #D9D9D9;
+    border-radius: 0px 0px var(--border-radius) var(--border-radius);
+}
+.qv-object-wrapper.has-footnote .qv-inner-object {
+  border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+}
+
+/*---------------- Object Hover: Take snapshot, Exploration menu, Full screen ----------------*/
+.qv-object-nav {
+  margin-top: 0;
+  right: 3px;
+  position: absolute;
+  text-align: center;
+  height: 0;
+}
+.touch-off .qv-object-nav>a:hover, .touch-off .qv-object-nav.zero-top>a:hover {
+  color: #0097E6;
+}
+
+.qv-object-nav>a, .qv-object-nav.zero-top>a {
+  color: var(--corp-color);
+}
+
+.qv-object-nav>a.border {
+  border-radius: 3px;
+  border: none;
+  padding: 0 3px;
+  background: none;
+}
+
+.zoom .qv-object-wrapper .qv-object {
+  padding: 10px 0px 0px 0px;
+}
+/*-------------------------Straight Table Styling---------------------------*/
+.qv-st {
+  border-left: 1px solid #F2F2F2;
+  border-right: 1px solid #F2F2F2;
+}
+.qv-st-header .qv-st-total-cell {
+  border-bottom: 1px solid #CCCCCC;
+}
+.qv-st-header-cell:not(.qv-st-total-cell) {
+  font-weight: bold;
+  background-color: var(--table-col-header-bg-color);
+}
+.qv-object-content table tr:nth-of-type(even) {
+  background: var(--table-striped-color) !important;
+}
+.qv-st-data-cell-null-value {
+  background: none;
+  font-size: 0px;
+}
+.qv-st-data-cell.qv-st-data-cell-selected-highlighted, .qv-st-data-cell.qv-st-data-cell-selected {
+  background-color: var(--corp-color);
+  border-bottom: 1px solid #FFFFFF;
+  color: #fff;
+}
+
+/*---------------Pivot Table Styling ----------------- */
+.qv-pt .cell.left-meta.empty.bottom-meta, .qv-pt .cell.top.empty.bottom-meta {
+  border-bottom: 1px solid #F2F2F2;
+  border-top: 1px solid #F2F2F2;
+  background: #FFFFFF !important;
+}
+.qv-pt .cell.null-value {
+  background: none;
+  font-size: 0px;
+}
+/*
+.qv-pt .cell {
+  border: 1px solid #F2F2F2;
+}
+*/
+.qv-pt .cell.header.top {
+  font-weight: bold;
+  background-color: var(--table-col-header-bg-color);
+  border-bottom: 1px solid #F2F2F2;
+}
+.qv-pt .cell.selected-highlighted, .qv-pt .cell.selected {
+  background-color: var(--corp-color) !important;
+}
+.qv-pt .cell.empty.left.selected, .qv-pt .cell.empty.left.selected-highlighted, .qv-pt .cell.left.selected, .qv-pt .cell.left.selected-highlighted, .qv-pt .cell.parent.left.selected, .qv-pt .cell.parent.left.selected-highlighted {
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+/*----------------Filterpane Styling -------------*/
+.qv-object-filterpane .qv-inner-object {
+  padding: 0px !important;
+  background: none !important;
+}
+
+/*----------- List Box Expand --------*/
+.qv-object-listbox {
+  padding: 3px !important;
+  background: #FFFFFF !important;
+  border-radius: var(--border-radius);
+}
+.qv-listbox-text {
+  text-align: left !important;
+}
+.qv-object.qv-object-listbox .qv-object-title .qv-object-title-text {
+  font-size: 12px;
+  text-align: left;
+  -webkit-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  
+}
+.qv-object.qv-object-listbox .qv-object-header {
+  padding: 0px;
+}
+
+/*----------- List Box Collapsed --------*/
+.qv-collapsed-listbox .title-wrapper .title {
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  -webkit-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 12px;
+  padding: 0 8px;
+  text-align: left;
+  font-weight: normal;
+  /*font-family: AvenirNextforINTUIT-Demi !important;*/
+}
+
+.qv-collapsed-listbox {
+  /*height: 40px !important;*/
+  max-height: 100vh;
+}
+
+/*----------------Button -------------*/
+.qv-object-action-button .qv-inner-object {
+  padding: 0px !important;
+  background: none !important;
+}
+
+/*----------------Qlik Dashboard Bundle Extension: Button for navigation -------------*/
+.qv-object-qlik-button-for-navigation .qv-inner-object {
+  padding: 0px !important;
+  background: none !important;
+}
+.qv-object-qlik-button-for-navigation .qv-object-header.thin {
+  display: none !important;
+}
+.qv-object-qlik-button-for-navigation .container {
+  padding: 0 !important;
+}
+
+/*-------VizLib Button-------*/
+.qv-object-VizlibButton .qv-inner-object {
+  padding: 0px !important;
+}
+
+.qv-object-VizlibButton .vzl-button {
+  margin: 0 !important;
+}
+
+
+/*---------------------------Hide: Smart search, Selection tools, Insights advisor ---------------------------------*/
+.qv-panel-current-selections .qv-subtoolbar-button.toggle-button, .touch-on .qv-panel-current-selections .qv-subtoolbar-button.toggle-button {
+  display: none;
+}
+
+/*-------------Stage Count Bar -------- */
+.qv-listbox .serverLocked, .qv-listbox .serverSelected, .qv-listbox li.selected {
+  background-color: var(--corp-color);
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+.qv-state-count-bar .state.selected, .qv-state-count-bar .state.locked {
+  background: var(--corp-color);
+}
+
+/*--------- Confirm Selection --------*/
+.sel-toolbar-confirm {
+  background-color: var(--corp-color);
+  border-color: none;
+}
+.touch-off .sel-toolbar-list .sel-toolbar-confirm:focus:not(:active), .touch-off .sel-toolbar-list .sel-toolbar-confirm:hover:not(:active):not(:disabled) {
+  background-color: #0097E6;
+  color: #FFFFFF;
+  border: none;
+  box-shadow: inset 0 -1px 0 0 rgba(0,0,0,.3);
+}
+
+.sel-toolbar-list .sel-toolbar-confirm:disabled, .sel-toolbar-list .sel-toolbar-confirm:disabled:hover {
+  background-color: #BABEC5;
+  border-color: #BABEC5;
+}
+
+.touch-off .sel-toolbar-list .sel-toolbar-confirm:focus:not(:active), .touch-off .sel-toolbar-list .sel-toolbar-confirm:hover:not(:active) {
+  background-color: #BABEC5;
+  color: #fff;
+}
+
+/*----- VizLib Filter ------*/
+.qv-object .VizlibFilter-extension *:not(i) {
+  font-size: 12px;
+}
