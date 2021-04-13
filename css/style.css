@@ -82,7 +82,28 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 .qv-panel-current-selections .lui-icon {
   color: var(--corp-color);
 }
+
+.qv-panel-current-selections .lui-icon--remove {
+color: red;
+}
+.qv-panel-current-selections .lui-icon--selection-search {
+color: blue;
+}
+.qv-panel-current-selections .lui-icon--selections-back {
+color: green;
+}
+.qv-panel-current-selections .lui-icon--selections-forward {
+color: DarkMagenta;
+}
+.qv-panel-current-selections .lui-icon--clear-selections {
+color: LightSalmon;
+}
 */
+
+/*------------- hide search icon in current selection bar ------------*/
+.qv-panel-current-selections .lui-icon--selection-search {
+display: none;
+}
 
 .qv-object-content-container .qv-object-content table tr:nth-of-type(even) {
   background: var(--table-striped-color);
