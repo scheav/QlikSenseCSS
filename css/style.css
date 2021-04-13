@@ -129,6 +129,6 @@ color: LightSalmon;
 }
 
 .qv-object .qv-object-footnote, .qv-object .qv-object-subtitle {
-    color: var(--subtitle-footnote-text-color) !important;
+    color: var(--text-color) !important;
 }
 
