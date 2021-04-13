@@ -88,8 +88,8 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
   text-align: left !important;
 }
 
-.qv-listbox-text .serverSelected {
- color: red !important;
+.qv-collapsed-listbox .title-wrapper .title {
+    font-weight: 400 !important;
 }
 
 /*------------- icon color in current selection bar ------------*/
