@@ -88,8 +88,16 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
   text-align: left !important;
 }
 
+/*----------- Panel current selection -----------*/
+.qv-panel-current-selections .qv-state-count-bar {
+  display: none;
+}
 .qv-collapsed-listbox .title-wrapper .title, .qv-panel-current-selections .name {
     font-weight: 400 !important;
+}
+
+.bright.qv-panel-current-selections .item {
+    color: var(--text-color);
 }
 
 /*------------- icon color in current selection bar ------------*/
