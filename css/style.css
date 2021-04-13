@@ -79,13 +79,10 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 }
 
 /*----------- Listbox selected item ----------*/
-/*
 .qv-listbox .serverLocked, .qv-listbox .serverSelected, .qv-listbox li.selected {
-  background-color: var(--corp-color);
+  background-color: #DDDDDD;
   border-bottom: 1px solid #FFFFFF;
-  color: #FFFFFF !important;
 }
-*/
 
 /*------------- icon color in current selection bar ------------*/
 /*
