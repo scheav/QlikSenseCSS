@@ -84,6 +84,14 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
   border-bottom: 1px solid #FFFFFF;
 }
 
+.qv-listbox-text {
+  text-align: left !important;
+}
+
+.qv-listbox-text .serverSelected {
+ color: red !important;
+}
+
 /*------------- icon color in current selection bar ------------*/
 /*
 .qv-panel-current-selections .lui-icon {
