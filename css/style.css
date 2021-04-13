@@ -85,7 +85,7 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 }
 
 .qv-listbox .qv-listbox-item .ng-scope .serverSelected {
-  color: #ffffff
+  color: #ffffff;
 }
 
 /*------------- icon color in current selection bar ------------*/
