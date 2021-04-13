@@ -117,4 +117,14 @@ color: LightSalmon;
   background: var(--table-striped-color);
 }
 
+/*---------------------------Object Footer---------------------------------*/
+.qv-object .qv-footer-wrapper {
+    background:var(--footer-bg-color) !important;
+    /*padding: 0px 10px 5px 10px;*/
+    border-top: 1px solid #D9D9D9;
+    border-radius: 0px 0px var(--border-radius) var(--border-radius);
+}
+.qv-object-wrapper.has-footnote .qv-inner-object {
+  border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+}
 
