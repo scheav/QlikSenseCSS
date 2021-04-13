@@ -39,7 +39,7 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
     background-color: var(--sheet-bg-color);
 }
 .qv-inner-object {
-    background-color: #fff;
+    background-color: red;
     padding: 10px 10px 10px 10px;
     border-radius: var(--border-radius);
 }
@@ -66,7 +66,7 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 
 /*----------- Sheet Grid --------- */
 .sheet-grid .qv-gridcell {
-    border: 1px solid red;
+    border: 1px solid var(--sheet-bg-color);
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
