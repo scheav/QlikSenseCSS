@@ -101,7 +101,11 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 }
 
 .bright.qv-panel-current-selections .wrap, .qv-panel-current-selections, .current-selections-item, .qv-panel-current-selections .item {
-    background: #F4F5F8 !important;
+    background:#ECEEF1 !important;
+}
+
+.bright.qv-panel-current-selections .wrap {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
