@@ -96,9 +96,10 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
     font-weight: 400 !important;
 }
 
-.bright.qv-panel-current-selections .item {
+.bright.qv-panel-current-selections .item, .bright.qv-panel-current-selections .values :not(.item-locked) {
     color: var(--text-color);
 }
+
 
 /*------------- icon color in current selection bar ------------*/
 /*
