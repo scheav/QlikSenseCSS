@@ -84,7 +84,7 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
   border-bottom: 1px solid #FFFFFF;
 }
 
-.qv-listbox-text .serverSelected {
+.qv-listbox-text {
   color:  #FFFFFF !important;
 }
 
