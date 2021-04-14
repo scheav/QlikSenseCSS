@@ -181,3 +181,7 @@ color: LightSalmon;
   background-color: #BABEC5;
   color: #fff;
 }
+
+.touch-off .qv-object-nav>a:hover, .touch-off .qv-object-nav.zero-top>a:hover {
+  color: #0097E6;
+}
