@@ -4,6 +4,7 @@
   --table-striped-color: #f7f7f7;
   --footer-bg-color: #FEFCFF;
   --border-radius: 3px;
+  --border-color: #F2F2F2;
   --sheet-bg-color: #F0F0F0;
   --text-color: #393A3D;
   --corp-color: #0077C5;
@@ -83,7 +84,7 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 .qv-listbox .serverLocked, .qv-listbox .serverSelected, .qv-listbox li.selected {
   background-color: var(--listbox-selected-bg-color);
   color:  #FFFFFF !important; /* Work in theme but not her */
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid var(--border-color);
 }
 
 
@@ -194,8 +195,8 @@ color: LightSalmon;
 
 /*-------------------------Straight Table Styling---------------------------*/
 .qv-st {
-  border-left: 1px solid #F2F2F2;
-  border-right: 1px solid #F2F2F2;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
 }
 .qv-st-header .qv-st-total-cell {
   border-bottom: 1px solid #CCCCCC;
@@ -219,8 +220,8 @@ color: LightSalmon;
 
 /*---------------Pivot Table Styling ----------------- */
 .qv-pt .cell.left-meta.empty.bottom-meta, .qv-pt .cell.top.empty.bottom-meta {
-  border-bottom: 1px solid #F2F2F2;
-  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color);
   background: #FFFFFF !important;
 }
 .qv-pt .cell.null-value {
@@ -235,7 +236,7 @@ color: LightSalmon;
 .qv-pt .cell.header.top {
   font-weight: bold;
   background-color: var(--table-col-header-bg-color);
-  border-bottom: 1px solid #F2F2F2;
+  border-bottom: 1px solid var(--border-color);
 }
 .qv-pt .cell.selected-highlighted, .qv-pt .cell.selected {
   background-color: var(--listbox-selected-bg-color) !important;
