@@ -182,6 +182,11 @@ color: LightSalmon;
   color: #fff;
 }
 
+/*---------------- Object Hover: Take snapshot, Exploration menu, Full screen ----------------*/
 .touch-off .qv-object-nav>a:hover, .touch-off .qv-object-nav.zero-top>a:hover {
   color: #0097E6;
+}
+
+.qv-object-nav>a, .qv-object-nav.zero-top>a {
+  color: var(--corp-color);
 }
