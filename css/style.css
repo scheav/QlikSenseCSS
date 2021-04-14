@@ -28,12 +28,7 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
   color: var(--text-color);
 }
 
-.lui-icon, .wizard-button-icon, .lui-search__search-icon {
-  font-family: LUI icons !important;
-}
-.fa {
-  font-family: FontAwesome !important;
-}
+
 
 /*-------------Stage Count Bar -------- */
 .qv-listbox .serverLocked, .qv-listbox .serverSelected, .qv-listbox li.selected {
