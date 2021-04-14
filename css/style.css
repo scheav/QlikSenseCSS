@@ -8,6 +8,7 @@
   --text-color: #393A3D;
   --corp-color: #0077C5;
   --subtitle-footnote-text-color: #4c4c4c;
+  --listbox-selected-bg-color: #21ABF6;
 }
 
 /*-----Public Resource --> https://github.intuit.com/CTG-Common/Library-CDN ------*/
@@ -74,13 +75,13 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 
 /*-------------State Count Bar -------- */
 .qv-state-count-bar .state.selected, .qv-state-count-bar .state.locked {
-  background: var(--corp-color);
+  background: var(--listbox-selected-bg-color);
   
 }
 
 /*----------- Listbox selected item ----------*/
 .qv-listbox .serverLocked, .qv-listbox .serverSelected, .qv-listbox li.selected {
-  background-color: #0097E6;
+  background-color: var(--listbox-selected-bg-color);
   color:  #FFFFFF !important; /* Work in theme but not her */
   border-bottom: 1px solid #FFFFFF;
 }
