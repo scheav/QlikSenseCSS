@@ -85,7 +85,7 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 }
 
 .qv-listbox .serverSelected {
-  color:  #FFFFFF;
+  color:  #FFFFFF !important;
 }
 
 
