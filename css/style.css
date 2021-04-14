@@ -84,7 +84,7 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
   border-bottom: 1px solid #FFFFFF;
 }
 
-.qv-listbox .serverSelected {
+.qv-listbox .serverSelected, .qv-listbox-item .ng-scope .serverSelected {
   color:  #FFFFFF !important;
 }
 
