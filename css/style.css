@@ -30,12 +30,11 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 
 
 
-/*-------------Stage Count Bar -------- */
 .qv-listbox .serverLocked, .qv-listbox .serverSelected, .qv-listbox li.selected {
-  background-color: var(--corp-color);
+  background-color: red;
   color: #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
 }
 .qv-state-count-bar .state.selected, .qv-state-count-bar .state.locked {
-  background: var(--corp-color);
+  background: red;
 }
