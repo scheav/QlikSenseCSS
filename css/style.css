@@ -28,13 +28,128 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
   color: var(--text-color);
 }
 
-
-
-.qv-listbox .serverLocked, .qv-listbox .serverSelected, .qv-listbox li.selected {
-  background-color: blue;
-  color: #FFFFFF !important;
-  border-bottom: 1px solid #FFFFFF;
+.lui-icon, .wizard-button-icon, .lui-search__search-icon {
+  font-family: LUI icons !important;
 }
+.fa {
+  font-family: FontAwesome !important;
+}
+
+/*---------------------------Sheet---------------------------------*/
+.qvt-sheet {
+    background-color: var(--sheet-bg-color);
+}
+
+/*---------------------------Sheet Title---------------------------------*/
+.qv-panel-sheet .sheet-title-container {
+  padding: 0;
+  height: 36px;
+  background: var(--corp-color);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+#sheet-title.sheet-grid {
+    margin: 0px 10px 0px 10px;
+}
+
+#sheet-title .sheet-title-text{
+    background-image: url(https://lib.intuitcdn.net/img/nav/checkball.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    color: #FFFFFF;
+    font-family: AvenirNext-Medium !important;
+}
+
+/*----------- Sheet Grid --------- */
+.sheet-grid .qv-gridcell {
+    border: none !important;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.qv-inner-object {
+    background-color: #ffffff;
+    /*padding: 10px 10px 10px 10px;*/
+    border-radius: var(--border-radius);
+}
+
+/*-------------State Count Bar -------- */
 .qv-state-count-bar .state.selected, .qv-state-count-bar .state.locked {
-  background: blue;
+  background: var(--corp-color);
+  
 }
+
+
+
+.qv-listbox-text {
+  text-align: left !important;
+}
+
+/*----------- Panel current selection -----------*/
+.qv-panel-current-selections .qv-state-count-bar {
+  display: none;
+}
+.qv-collapsed-listbox .title-wrapper .title, .qv-panel-current-selections .name {
+    font-weight: 400 !important;
+}
+
+.bright.qv-panel-current-selections .item, .bright.qv-panel-current-selections .values :not(.item-locked) {
+    color: var(--text-color);
+}
+
+.bright.qv-panel-current-selections .wrap, .qv-panel-current-selections, .current-selections-item, .qv-panel-current-selections .item {
+    background: #FFFFFF !important;
+}
+
+.current-selections-item {
+    margin-top: 2px;
+}
+
+
+/*------------- icon color in current selection bar ------------*/
+/*
+.qv-panel-current-selections .lui-icon {
+  color: var(--corp-color);
+}
+
+.qv-panel-current-selections .lui-icon--remove {
+color: red;
+}
+.qv-panel-current-selections .lui-icon--selection-search {
+color: blue;
+}
+.qv-panel-current-selections .lui-icon--selections-back {
+color: green;
+}
+.qv-panel-current-selections .lui-icon--selections-forward {
+color: DarkMagenta;
+}
+.qv-panel-current-selections .lui-icon--clear-selections {
+color: LightSalmon;
+}
+*/
+
+/*---------------------------Hide Smart search, Selection tools, Insights advisor ---------------------------------*/
+.qv-panel-current-selections .qv-subtoolbar-button.toggle-button, .touch-on .qv-panel-current-selections .qv-subtoolbar-button.toggle-button {
+  display: none;
+}
+
+/*------------------------- Table Styling---------------------------*/
+.qv-object-content-container .qv-object-content table tr:nth-of-type(even) {
+  background: var(--table-striped-color);
+}
+
+/*---------------------------Object Footer---------------------------------*/
+.qv-object .qv-footer-wrapper {
+    background:var(--footer-bg-color) !important;
+    border-top: 1px solid #D9D9D9;
+    border-radius: 0px 0px var(--border-radius) var(--border-radius);
+}
+.qv-object-wrapper.has-footnote .qv-inner-object {
+  border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+}
+
+/*------------ Subtitle, Footnote font color --------------*/
+.qv-object .qv-object-footnote, .qv-object .qv-object-subtitle {
+    color: var(--subtitle-footnote-text-color) !important;
+}
+
