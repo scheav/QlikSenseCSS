@@ -160,3 +160,23 @@ color: LightSalmon;
     color: var(--subtitle-footnote-text-color) !important;
 }
 
+/*--------- Confirm Selection --------*/
+.sel-toolbar-confirm {
+  background-color: var(--corp-color);
+  border-color: none;
+}
+.touch-off .sel-toolbar-list .sel-toolbar-confirm:focus:not(:active), .touch-off .sel-toolbar-list .sel-toolbar-confirm:hover:not(:active):not(:disabled) {
+  background-color: #0097E6;
+  color: #FFFFFF;
+  border: none;
+}
+
+.sel-toolbar-list .sel-toolbar-confirm:disabled, .sel-toolbar-list .sel-toolbar-confirm:disabled:hover {
+  background-color: #BABEC5;
+  border-color: #BABEC5;
+}
+
+.touch-off .sel-toolbar-list .sel-toolbar-confirm:focus:not(:active), .touch-off .sel-toolbar-list .sel-toolbar-confirm:hover:not(:active) {
+  background-color: #BABEC5;
+  color: #fff;
+}
