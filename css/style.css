@@ -212,7 +212,7 @@ color: LightSalmon;
   font-size: 0px;
 }
 .qv-st-data-cell.qv-st-data-cell-selected-highlighted, .qv-st-data-cell.qv-st-data-cell-selected {
-  background-color: var(--corp-color);
+  background-color: var(--listbox-selected-bg-color);
   border-bottom: 1px solid #FFFFFF;
   color: #fff;
 }
@@ -238,7 +238,7 @@ color: LightSalmon;
   border-bottom: 1px solid #F2F2F2;
 }
 .qv-pt .cell.selected-highlighted, .qv-pt .cell.selected {
-  background-color: var(--corp-color) !important;
+  background-color: var(--listbox-selected-bg-color) !important;
 }
 .qv-pt .cell.empty.left.selected, .qv-pt .cell.empty.left.selected-highlighted, .qv-pt .cell.left.selected, .qv-pt .cell.left.selected-highlighted, .qv-pt .cell.parent.left.selected, .qv-pt .cell.parent.left.selected-highlighted {
   border-right: 1px solid #FFFFFF;
