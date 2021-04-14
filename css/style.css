@@ -104,6 +104,10 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
     background: #FFFFFF !important;
 }
 
+.current-selections-item {
+    margin-top: 5px;
+}
+
 
 /*------------- icon color in current selection bar ------------*/
 /*
