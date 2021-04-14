@@ -32,7 +32,7 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 
 .qv-listbox .serverLocked, .qv-listbox .serverSelected, .qv-listbox li.selected {
   background-color: blue;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   border-bottom: 1px solid #FFFFFF;
 }
 .qv-state-count-bar .state.selected, .qv-state-count-bar .state.locked {
