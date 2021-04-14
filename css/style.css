@@ -80,7 +80,7 @@ body, html, .qv-object *, .bright.qv-panel-current-selections .values {
 
 /*----------- Listbox selected item ----------*/
 .qv-listbox .serverLocked, .qv-listbox .serverSelected, .qv-listbox li.selected {
-  background-color: var(--corp-color);
+  background-color: #0097E6;
   color:  #FFFFFF !important; /* Work in theme but not her */
   border-bottom: 1px solid #FFFFFF;
 }
