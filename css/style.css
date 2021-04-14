@@ -189,4 +189,5 @@ color: LightSalmon;
 
 .qv-object-nav>a, .qv-object-nav.zero-top>a {
   color: var(--corp-color);
+  /*display: none;*/ /* Hide all Take snapshot, Exploration menu, Full screen*/
 }
